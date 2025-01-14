@@ -1,0 +1,20 @@
+{
+    "name": "riccardo/php-terminal",
+    "description": "Terminal in PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Riccardo\\PhpTerminal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Riccardo Cecchini",
+            "email": "rcecchini.ds@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
